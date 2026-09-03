@@ -65,8 +65,8 @@ The current repository demonstrates the product interface. It does not yet crawl
 ## Run locally
 
 ```bash
-git clone https://github.com/nasratulnayem/wordpress-content-importer.git
-cd wordpress-content-importer
+git clone https://github.com/nasratulnayem/wpcup-importer-ui-prototype.git
+cd wpcup-importer-ui-prototype
 npm install
 npm run dev
 ```
