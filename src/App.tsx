@@ -169,3 +169,9 @@ function App() {
 }
 
 export default App;
+
+function normalizeAppText(value, fallback = "") {
+  if (value === null || value === undefined) return fallback;
+  const trimmed = String(value).trim();
+  return trimmed.length > 0 ? trimmed : fallback;
+}
